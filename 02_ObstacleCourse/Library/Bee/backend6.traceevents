@@ -1,0 +1,971 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1732982226634053, "dur":18865, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732982226652923, "dur":368, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732982226653323, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1732982226653383, "dur":228, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732982226654196, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4kb778czy2qu.o" }}
+,{ "pid":12345, "tid":0, "ts":1732982226655584, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ah8oui4xc04s.o" }}
+,{ "pid":12345, "tid":0, "ts":1732982226653626, "dur":6120, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732982226659750, "dur":217006, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732982226876757, "dur":60, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732982226876852, "dur":135, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732982226877015, "dur":1565, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732982226878689, "dur":4211, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1732982226654231, "dur":5593, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226659827, "dur":401, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226660228, "dur":179, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226660408, "dur":130, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226660538, "dur":184, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226660723, "dur":298, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226661021, "dur":2419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226663563, "dur":1493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226665062, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ClassRegistrationGenerator D:/unity/02_Obstacle_Course/ObstacleCourse/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226665179, "dur":2471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226667695, "dur":163, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__60.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226667862, "dur":64, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226667653, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3k2fq91yjc4y.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226667927, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226668003, "dur":327, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.VRModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226668337, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226667997, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w4p5zg6ykcco.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226668454, "dur":631, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226669092, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226668443, "dur":755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/quka2mconpdj.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226669227, "dur":694, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__33.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226669930, "dur":104, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226669216, "dur":819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9ocvb43clx5z.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226670066, "dur":694, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226670768, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226670049, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3crqntw0u09e.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226670907, "dur":1346, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UnityAnalyticsCommonModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226672262, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226670889, "dur":1478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gkipfn738d98.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226672408, "dur":1230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226673646, "dur":122, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226672394, "dur":1374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o68vlqdvd7vg.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226673805, "dur":2627, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226676437, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226673789, "dur":2724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1ctrh9ttx0bb.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226676567, "dur":270, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SharedInternalsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1732982226676552, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fu8ukjwbuixg.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226676901, "dur":1806, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226678715, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226676890, "dur":1928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ssb60nv4p7ww.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226678928, "dur":370, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226679308, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226678915, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4t0ryqr23mqi.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226679441, "dur":58, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1732982226679430, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/562t8mxfehdb.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226679582, "dur":318, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__49.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226679905, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226679575, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aqbskudh88ir.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226679984, "dur":242, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__16.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226680233, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226679976, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2n3lasx8p1bs.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226680336, "dur":782, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226681126, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226680329, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iwwq2hfi13aa.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226681249, "dur":1157, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__18.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226682410, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226681237, "dur":1273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2crhhnvhxz4g.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226682685, "dur":581, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__67.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226683273, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226682671, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/26np1fyi6soi.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226683435, "dur":291, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1732982226683733, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226683427, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/za3zw2mlkb3u.o" }}
+,{ "pid":12345, "tid":1, "ts":1732982226683835, "dur":143797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732982226827635, "dur":56, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles GameWeb/TemplateData/unity-logo-light.png" }}
+,{ "pid":12345, "tid":1, "ts":1732982226828541, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/unity-logo-light.png" }}
+,{ "pid":12345, "tid":1, "ts":1732982226831113, "dur":45625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226653927, "dur":5830, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226660136, "dur":346, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/SetUp/unityHub/6000.0.25f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":2, "ts":1732982226660697, "dur":1833, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/SetUp/unityHub/6000.0.25f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226662859, "dur":68, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/SetUp/unityHub/6000.0.25f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/enc" }}
+,{ "pid":12345, "tid":2, "ts":1732982226663073, "dur":50, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/SetUp/unityHub/6000.0.25f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib" }}
+,{ "pid":12345, "tid":2, "ts":1732982226663123, "dur":125, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/SetUp/unityHub/6000.0.25f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules" }}
+,{ "pid":12345, "tid":2, "ts":1732982226663271, "dur":64, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/SetUp/unityHub/6000.0.25f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/PWA" }}
+,{ "pid":12345, "tid":2, "ts":1732982226663336, "dur":50, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/SetUp/unityHub/6000.0.25f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":2, "ts":1732982226659759, "dur":3679, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226663477, "dur":713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/unity/02_Obstacle_Course/ObstacleCourse/Library/Bee/artifacts/unitylinker_ber2.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1732982226664191, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226665037, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen D:/unity/02_Obstacle_Course/ObstacleCourse/Library/Bee/artifacts/il2cpp_conv_bb9x.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1732982226665351, "dur":1151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226667642, "dur":150, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__75.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226667802, "dur":67, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226667637, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3dhwekv42l0a.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226667880, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/skre4eja2qc4.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226667951, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s2xrenvy391p.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668021, "dur":68, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.PropertiesModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668014, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rgi05rl98qbj.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668110, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668454, "dur":135, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668446, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gqq19a7almvs.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668658, "dur":146, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.JSONSerializeModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668809, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668648, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2lz1258nvl0m.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668883, "dur":140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__56.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226668876, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/apkidju40zd4.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226669160, "dur":220, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__43.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226669137, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/grcekrttn24u.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226669447, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Mono.Security.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226669441, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wqgkgw98qf0d.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226669679, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226669850, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226669673, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gxd7vovtf65y.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226669913, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5pref1jezcpi.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226670012, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226670004, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lmwmhwjxg5mq.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226670202, "dur":1350, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226671563, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226670196, "dur":1440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qcukz7x1wsdd.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226671679, "dur":1591, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__34.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226673279, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226671670, "dur":1708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u4fjrdiaolhj.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226673415, "dur":186, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1732982226673404, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ksp1dn9xykuh.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226673654, "dur":405, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__13.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226674067, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226673645, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fsv0pnmef91d.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226674221, "dur":906, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Cinemachine__5.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226675136, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226674209, "dur":1021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/18j8gt1ud7st.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226675255, "dur":1247, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__2.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226676510, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226675244, "dur":1353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/emtk5qdi6eow.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226676636, "dur":1073, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Configuration.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226677719, "dur":120, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226676625, "dur":1214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gegqf3gp7iq6.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226677922, "dur":2190, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__72.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226680119, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226677910, "dur":2266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/waq3ylmbt7vs.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226680213, "dur":717, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__14.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226680935, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226680205, "dur":810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r1vmwcmepkk2.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226681054, "dur":135, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppMetadataRegistration.c" }}
+,{ "pid":12345, "tid":2, "ts":1732982226681031, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d8eki7pa2dqm.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226681262, "dur":1644, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__39.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226682913, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226681247, "dur":1767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nvug70lz4pe0.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226683318, "dur":645, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__70.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1732982226683970, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226683275, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/an2yywrfmh3t.o" }}
+,{ "pid":12345, "tid":2, "ts":1732982226684076, "dur":143521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732982226827599, "dur":289, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles GameWeb/TemplateData/progress-bar-full-light.png" }}
+,{ "pid":12345, "tid":2, "ts":1732982226827981, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/progress-bar-full-light.png" }}
+,{ "pid":12345, "tid":2, "ts":1732982226831002, "dur":45738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226654647, "dur":5328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226659977, "dur":259, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226660237, "dur":423, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226660661, "dur":336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226660997, "dur":2527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226663550, "dur":1564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226665115, "dur":2731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226667868, "dur":131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.ParticleSystemModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1732982226667847, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1etsws57mgsu.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226668062, "dur":836, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226668905, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226668051, "dur":942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zi1504ynci40.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226669003, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zi1504ynci40.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226669095, "dur":180, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__4.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226669286, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226669080, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/09gp5f8dd5gv.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226669393, "dur":912, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226670315, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226669382, "dur":1023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z1w8k0rf92zf.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226670479, "dur":152, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AndroidJNIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1732982226670463, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/65018jcxucor.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226670703, "dur":1577, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226672288, "dur":113, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226670693, "dur":1708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w88l2skmudib.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226672434, "dur":1181, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__21.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226673623, "dur":111, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226672418, "dur":1316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gzo72rj0b2d6.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226673773, "dur":1231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__59.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226675010, "dur":53, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226673760, "dur":1303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hsbbth3xaeim.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226675089, "dur":1183, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226676282, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226675075, "dur":1296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/048axtdvtyuv.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226676559, "dur":1065, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__51.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226677633, "dur":109, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226676549, "dur":1193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hy5kxvqfkvgn.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226677795, "dur":1572, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226679376, "dur":107, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226677783, "dur":1700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/75jwolfqonk3.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226679529, "dur":825, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__41.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226680362, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226679519, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aw51o80yhqhs.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226680522, "dur":1360, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226681890, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226680504, "dur":1470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9401bqnkklss.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226682014, "dur":1578, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1732982226683601, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226682002, "dur":1703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fl9g97uwct2s.o" }}
+,{ "pid":12345, "tid":3, "ts":1732982226683805, "dur":17337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226701187, "dur":126350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732982226828609, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/icons/unity-logo-light.png" }}
+,{ "pid":12345, "tid":3, "ts":1732982226830974, "dur":45768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226654686, "dur":5421, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226660108, "dur":408, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226660516, "dur":411, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226660927, "dur":2626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226663554, "dur":1563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226665117, "dur":2876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226668015, "dur":720, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\__Generated_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1732982226667994, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kvzytvdfmdnj.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226668794, "dur":1715, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__55.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226670515, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226668783, "dur":1804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9g01s3d6wxwo.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226670626, "dur":538, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226671174, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226670617, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/t6pwphzk3qcd.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226671311, "dur":1805, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673123, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226671297, "dur":1908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9lck1zrsgv7z.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673242, "dur":318, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__17.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673566, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673233, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n369p1b6spnb.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673704, "dur":163, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__11.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673875, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673666, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6kz1c2x2xhru.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673974, "dur":347, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226674331, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226673966, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7wxx49exv4h5.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226674435, "dur":193, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.XRModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226674635, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226674428, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uw9a6tueog4f.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226674731, "dur":370, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226675108, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226674724, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3ps1j9ob0ie4.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226675205, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226675357, "dur":85, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.Physics2DModule_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1732982226675348, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ny4pcxs9jztp.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226675616, "dur":403, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676025, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226675474, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w9zx7un7km5w.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676124, "dur":62, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppTypeDefinitions.c" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676116, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3uspvolrrsuf.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676238, "dur":402, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__61.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676649, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676228, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o0535igwm0fi.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676775, "dur":60, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676765, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d8j9r9crdzy9.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676898, "dur":292, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__6.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226677198, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226676888, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jlz7hagd4ta0.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226677310, "dur":241, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226677560, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226677301, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8hiot9l32eya.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226677689, "dur":325, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678022, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226677679, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/glt74jj77l66.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678114, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6egsv13il8hz.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678239, "dur":64, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Core_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678230, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bdx7b4sfj2er.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678366, "dur":272, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCalculateFieldValues2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678644, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678357, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6pf79tze5neh.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678749, "dur":451, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__12.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226679208, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226678740, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l6oa1ttjj8wz.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226679338, "dur":1282, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Cinemachine__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226680626, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226679326, "dur":1380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/edcnwoq02ejf.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226680726, "dur":270, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681001, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226680718, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5cflsmh4tfaf.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681108, "dur":233, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Cinemachine__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681349, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681098, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tx8ygfc3zq7v.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681464, "dur":267, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__65.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681738, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681455, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wbhd6w5n0g1f.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681830, "dur":274, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682112, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226681822, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qjd6jndakmqy.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682223, "dur":120, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AIModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682348, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682216, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8c5w7yamlphh.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682421, "dur":228, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682655, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682415, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c9047jo9z1uf.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682741, "dur":134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Cinemachine.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682880, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226682733, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ukhudy8a20m1.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226683032, "dur":949, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1732982226683989, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226683023, "dur":1056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mo09o63pm76a.o" }}
+,{ "pid":12345, "tid":4, "ts":1732982226684098, "dur":143498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732982226827598, "dur":50, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles GameWeb/TemplateData/progress-bar-empty-dark.png" }}
+,{ "pid":12345, "tid":4, "ts":1732982226827989, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/progress-bar-empty-dark.png" }}
+,{ "pid":12345, "tid":4, "ts":1732982226830804, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/Build/GameWeb.loader.js" }}
+,{ "pid":12345, "tid":4, "ts":1732982226831555, "dur":45203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226654664, "dur":5373, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226660039, "dur":304, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226660343, "dur":126, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226660469, "dur":125, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226660594, "dur":133, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226660727, "dur":2830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226663557, "dur":1532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226665153, "dur":2713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226667884, "dur":424, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__19.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226668316, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226667867, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9queqq61zfga.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226668385, "dur":100, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__35.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226668492, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226668379, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vc0zbty8rnyy.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226668566, "dur":301, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__78.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226668874, "dur":88, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226668560, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ah8oui4xc04s.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226668975, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ah8oui4xc04s.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226670564, "dur":1795, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__74.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226672368, "dur":175, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226670550, "dur":1993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iyd8yah7zxor.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226672641, "dur":1464, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226674110, "dur":119, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226672563, "dur":1666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rtxgsaacxdjw.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226674254, "dur":244, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.DirectorModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226674505, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226674247, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s95boo6uh2jn.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226674594, "dur":694, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__47.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226675294, "dur":67, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226674586, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o2nnk5il1iqs.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226675382, "dur":403, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226675793, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226675374, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dfiwc5oi8j9f.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226675869, "dur":759, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__21.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226676634, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226675862, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r04cp121hbff.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226676753, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/knrz9cpx7p1y.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226676849, "dur":253, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226677107, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226676838, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lacjuklh2z2x.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226677201, "dur":372, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226677584, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226677192, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8dnpoubvk51j.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226677681, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226677778, "dur":327, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__22.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678112, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226677767, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1esvi1xxeqpp.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678211, "dur":210, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678427, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678201, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7fq4r4gz49h7.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678518, "dur":202, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__16.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678727, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678510, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gp3chy0lq9bi.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678857, "dur":651, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__63.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226679514, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226678842, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aot857astq8g.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226679634, "dur":241, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__36.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226679880, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226679612, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gs3nr2c6ubai.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226679960, "dur":483, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Splines_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1732982226679954, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/engc3kzb2vy6.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226680533, "dur":434, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1732982226680520, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rbez0fhb283s.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226681024, "dur":754, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226681784, "dur":64, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226681015, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/auw0lf8qkxof.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226681868, "dur":291, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682166, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226681861, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0ajufjxutyyc.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682273, "dur":201, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__77.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682479, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682265, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p140e9p09bt9.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682585, "dur":211, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__8.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682802, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682558, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/58mciza9ak3y.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682916, "dur":531, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226683454, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226682891, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pjagoc7ogq53.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226683552, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ew4lrmc2g99c.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226683665, "dur":279, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__5.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1732982226683948, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226683654, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lpkdlpmbgtse.o" }}
+,{ "pid":12345, "tid":5, "ts":1732982226684016, "dur":143594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732982226827612, "dur":50, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles GameWeb/TemplateData/favicon.ico" }}
+,{ "pid":12345, "tid":5, "ts":1732982226828692, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/favicon.ico" }}
+,{ "pid":12345, "tid":5, "ts":1732982226831074, "dur":45662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226654703, "dur":5409, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226660112, "dur":543, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226660655, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226661010, "dur":2512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226663566, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1732982226663995, "dur":1042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226665041, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ICallRegistrationGenerator D:/unity/02_Obstacle_Course/ObstacleCourse/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226665274, "dur":2368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226667683, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__23.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226667818, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226667644, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/doshpqxxo17d.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226667900, "dur":148, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668055, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226667889, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uk4prz1hn93b.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668129, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668122, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/t0vml3b3t9dc.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668323, "dur":97, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Xml.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668317, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l5dca3kccf67.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668477, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fkjfhs6mx4ra.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668557, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/44r0laxoyni5.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668626, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Timeline__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668620, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kwls1k9kgd0x.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668819, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AndroidJNIModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668953, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226668811, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m1eahpmsaq63.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226669009, "dur":196, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m1eahpmsaq63.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226669220, "dur":652, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226669880, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226669213, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4xci4o593kvj.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226670022, "dur":380, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.HierarchyCoreModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226670410, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226670002, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/24zcwnd724lz.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226670591, "dur":1786, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__4.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226672384, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226670578, "dur":1908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1chvby9qiuhi.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226672507, "dur":742, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226673257, "dur":118, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226672499, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/eyzsm4f5n09h.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226673394, "dur":285, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__13.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226673693, "dur":114, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226673386, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6lsyg37gmw8i.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226673922, "dur":359, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Core.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226674287, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226673821, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vz8jwrcimflp.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226674381, "dur":71, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Configuration_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1732982226674373, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8sve7yyiyr48.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226674497, "dur":300, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Splines.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226674804, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226674489, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/eqpjrjd3vk6h.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226674893, "dur":175, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__27.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226675073, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226674886, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u56syo1mvum6.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226675165, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4df5fe7d4jhz.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226675259, "dur":164, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__25.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226675250, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zbgmpfstvr0c.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226675488, "dur":219, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__52.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226675482, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2d98c54cnjs6.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226675763, "dur":153, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226675757, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1krsbp4ii7sg.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226676084, "dur":327, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226676420, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226676059, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9xlt5ynevjyv.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226676642, "dur":534, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226677181, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226676631, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bo2zn7ls8gvc.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226677282, "dur":299, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Cinemachine__4.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226677588, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226677274, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/00zrwdlw94be.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226677725, "dur":329, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__62.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678062, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226677712, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p8pkqywuq2wx.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678164, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rcszcu2ki2m8.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678273, "dur":317, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Splines__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678595, "dur":55, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678266, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x2gydaxj8rlu.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678669, "dur":139, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678815, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678662, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y4mfcbv7yyok.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678907, "dur":301, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SubsystemsModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226678898, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/klyc86ulr080.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226679278, "dur":211, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226679497, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226679268, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hocai2yjx1tu.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226679672, "dur":667, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226680345, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226679661, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dhllsz4733bv.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226680456, "dur":55, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SpriteShapeModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1732982226680448, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/etijp27vwz6r.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226680529, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226680633, "dur":313, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226680954, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226680622, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qoq0x8o6d8ei.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226681064, "dur":251, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226681321, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226681055, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3pljeb7rt8xq.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226681432, "dur":646, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__14.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226682084, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226681425, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g0fha32cjbjt.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226682175, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226682569, "dur":320, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.ParticleSystemModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226682895, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226682561, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hinew8yvgo31.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683012, "dur":208, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__24.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683224, "dur":55, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683004, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n2f0iqstlgio.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683303, "dur":257, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__69.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683564, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683296, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oubu14sedjhh.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683628, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ax7i1uawrxy5.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683703, "dur":142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683693, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uh33mguwznaf.o" }}
+,{ "pid":12345, "tid":6, "ts":1732982226683910, "dur":143731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732982226828191, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/unity-logo-dark.png" }}
+,{ "pid":12345, "tid":6, "ts":1732982226830996, "dur":45759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226654045, "dur":5762, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226659816, "dur":500, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226660317, "dur":206, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226660523, "dur":449, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226660972, "dur":2554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226663554, "dur":1562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226665116, "dur":2636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226667841, "dur":293, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__4.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226668147, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226667753, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xxb3hllhx3h1.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226668283, "dur":689, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226668982, "dur":88, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226668270, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a82yb4tpj6b5.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226669091, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ymlztf2hfoce.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226669224, "dur":713, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__32.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226669944, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226669214, "dur":835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o986vupfi9tg.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226670074, "dur":471, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226670550, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226670063, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ob18lf1q6xmj.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226670648, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226670743, "dur":1456, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__15.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226672206, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226670732, "dur":1561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v9zo1omonl0y.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226672355, "dur":172, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226672534, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226672343, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u55stygz94q9.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226672683, "dur":598, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Cinemachine__3.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226673287, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226672674, "dur":698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/flw3g46y6g0u.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226673455, "dur":589, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226674048, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226673446, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3q575gzxajkx.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226674138, "dur":313, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__46.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226674456, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226674131, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nu36zp2mxg9c.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226674553, "dur":473, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226675037, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226674545, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4kb778czy2qu.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226675172, "dur":1027, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__81.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226676207, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226675161, "dur":1139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ixmyrzxusoj4.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226676344, "dur":1226, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__58.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226677579, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226676332, "dur":1350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wc8md8o07p62.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226677715, "dur":100, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AudioModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1732982226677701, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8oh84sxh9dsp.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226677928, "dur":1556, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__11.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226679491, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226677916, "dur":1651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9woou4tj9web.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226679598, "dur":1547, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__64.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226681155, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226679590, "dur":1655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v3wwlhppwek0.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226681278, "dur":1649, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226682936, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226681262, "dur":1773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qvzt5nwaqhwf.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226683074, "dur":945, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__15.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1732982226684025, "dur":55, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226683063, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s9f3gs2ctm1h.o" }}
+,{ "pid":12345, "tid":7, "ts":1732982226684101, "dur":143484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732982226827587, "dur":117, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles GameWeb/TemplateData/progress-bar-full-dark.png" }}
+,{ "pid":12345, "tid":7, "ts":1732982226829086, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/progress-bar-full-dark.png" }}
+,{ "pid":12345, "tid":7, "ts":1732982226831370, "dur":45373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226654214, "dur":5605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226659821, "dur":153, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226659975, "dur":275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226660250, "dur":308, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226660559, "dur":386, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226660945, "dur":2603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226663548, "dur":1576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226665124, "dur":2611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226667762, "dur":2569, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__45.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226670335, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226667736, "dur":2655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2e0ikgopusxt.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226670401, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xaggbgpbuwei.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226670455, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226670762, "dur":213, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__28.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226670979, "dur":53, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226670747, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vdr9i4hlzw3l.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671049, "dur":193, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671043, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qfw59q7n2pil.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671319, "dur":150, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671311, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vhajgfhwciuf.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671536, "dur":160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__57.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671701, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671531, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v4n6ss813npn.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671761, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lzsldn7e0876.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671837, "dur":155, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__42.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226671831, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vb9p4hfwketb.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672062, "dur":197, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672263, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672054, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f7e64nsa83ul.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672356, "dur":87, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__8.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672453, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672350, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9ns4bcziwa3f.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672530, "dur":212, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672746, "dur":53, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672523, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/18wl9wpsjjvr.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672813, "dur":173, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__80.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226672808, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hp2h7jhwom2o.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673048, "dur":179, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673231, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673042, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gttxtnbvgvj8.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673332, "dur":236, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673572, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673311, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8boepvyltxz9.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673641, "dur":100, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__18.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673747, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673636, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zc7vwqb6205z.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673843, "dur":1043, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__7.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226674893, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226673836, "dur":1131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7c8hleh7mjld.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226674988, "dur":358, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputForUIModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226675355, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226674978, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ns9emmsu5kts.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226675464, "dur":494, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226675963, "dur":65, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226675457, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9wvqqfuqwght.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226676048, "dur":208, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226676263, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226676040, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fp5mhkzxqajc.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226676380, "dur":288, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226676677, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226676371, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c82tcxpwizvy.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226676805, "dur":400, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__38.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677210, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226676796, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2frsrr71112g.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677331, "dur":86, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreFontEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677323, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x1r75qcoztko.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677457, "dur":66, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.DirectorModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677450, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g14km0yxi4ch.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677549, "dur":97, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__73.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677653, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677544, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hqtrev08vv7b.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677788, "dur":291, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__6.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678083, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226677781, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n04zbn4mpkah.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678172, "dur":157, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__4.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678164, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3b0eirtf4rmt.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678390, "dur":273, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__26.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678667, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678385, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9p34ifnps6an.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678730, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/elv170aqgwry.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678831, "dur":69, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678824, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/spquolfjmyui.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678932, "dur":319, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226679256, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226678925, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v5c700f92hw6.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226679388, "dur":270, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226679663, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226679362, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oynuwasdglvs.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226679749, "dur":263, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__37.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226680017, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226679743, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h0n4bit4ydrx.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226680094, "dur":564, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226680664, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226680085, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j3rhabpjhc62.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226680750, "dur":450, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":8, "ts":1732982226680743, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6by48e2hre38.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226681257, "dur":657, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__66.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226681919, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226681249, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hrk1l6jl34cz.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226682136, "dur":849, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__24.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1732982226682992, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226682121, "dur":964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ewcy95dws3ot.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226683365, "dur":514, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputForUIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1732982226683350, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vf8c0b71hnlp.o" }}
+,{ "pid":12345, "tid":8, "ts":1732982226684005, "dur":143607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732982226827615, "dur":64, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"PreprocessJS GameWeb/ServiceWorker.js" }}
+,{ "pid":12345, "tid":8, "ts":1732982226827817, "dur":50645, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"GameWeb/ServiceWorker.js" }}
+,{ "pid":12345, "tid":9, "ts":1732982226654290, "dur":5540, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226659832, "dur":160, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226659993, "dur":677, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226660670, "dur":325, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226660996, "dur":2531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226663528, "dur":1601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226665129, "dur":2938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226668089, "dur":2263, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__25.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226670373, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226668069, "dur":2398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oa0g358rpiz3.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226670488, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4evbxn6ermop.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226670596, "dur":358, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226670959, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226670574, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/559bslfgqnqx.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671061, "dur":212, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671279, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671052, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/azd43llmjehn.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671375, "dur":185, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671567, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671367, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xulpoqwgu6q1.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671660, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/59p8mrzu2euv.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671767, "dur":180, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671954, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226671759, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tn0dmjftdvye.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226672053, "dur":208, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226672269, "dur":120, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226672044, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9p24dp216gfq.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226672481, "dur":240, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226672727, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226672437, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ficuiyehwv3f.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226672828, "dur":845, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__19.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226673686, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226672818, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ksakc0p35ohj.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226673827, "dur":461, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226673817, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/49qdju76ilmo.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226674361, "dur":193, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226674561, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226674355, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2ilrl1iz6g3h.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226674637, "dur":266, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__7.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226674910, "dur":71, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226674632, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o8ogw2kltmrw.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226675008, "dur":588, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__2.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226675601, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226674999, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r24qm2smrruy.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226675678, "dur":274, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__9.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226675958, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226675671, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u3vsrldgzyez.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676030, "dur":153, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676187, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676025, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xqzen1sz1nqn.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676270, "dur":183, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676460, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676262, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hp3ln414nahg.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676583, "dur":230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676819, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676558, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/agij3r5t4eex.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676962, "dur":2349, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Timeline.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226679320, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226676954, "dur":2479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fz74flbmalrl.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226679686, "dur":1291, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__54.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226680987, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226679671, "dur":1404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o1wdduz8t9k5.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226681100, "dur":287, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226681395, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226681091, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/txxxmcdfe7zi.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226681494, "dur":1279, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226682781, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226681486, "dur":1376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p0evnirw1q2d.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226682885, "dur":292, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Cinemachine__6.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226683183, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226682877, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/monww2fsgv4c.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226683278, "dur":298, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__10.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1732982226683584, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226683269, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8o479odl5uxv.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226683704, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lc8zxzyjvlhz.o" }}
+,{ "pid":12345, "tid":9, "ts":1732982226683813, "dur":143847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732982226827663, "dur":71, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"PreprocessJS GameWeb/index.html" }}
+,{ "pid":12345, "tid":9, "ts":1732982226827861, "dur":50659, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"GameWeb/index.html" }}
+,{ "pid":12345, "tid":10, "ts":1732982226654412, "dur":5453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226659869, "dur":289, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226660158, "dur":131, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226660290, "dur":185, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226660476, "dur":155, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226660631, "dur":331, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226660962, "dur":2579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226663542, "dur":1582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226665125, "dur":2604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226667757, "dur":1311, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669075, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226667730, "dur":1415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8xzlanztjejd.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669167, "dur":185, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__22.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669356, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669158, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s8ot9gj0ldwu.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669423, "dur":178, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669605, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669415, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kq6ncc1inzee.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669672, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__20.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669665, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6k1o9ro4en3v.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669898, "dur":84, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__40.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669989, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226669892, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9nll4sk0do0c.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670098, "dur":138, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__16.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670073, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dpjrw1gawad1.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670308, "dur":56, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.PhysicsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670300, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lu2wqfc8qcgb.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670424, "dur":187, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__19.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670620, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670416, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3kby12bg11lw.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670755, "dur":88, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UnityAnalyticsCommonModule_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670743, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g5ns0aduqqvq.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670879, "dur":219, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671104, "dur":63, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226670873, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nwkq9lkoq9nq.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671185, "dur":196, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__11.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671386, "dur":64, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671178, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x3oqvaqbiiu5.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671467, "dur":201, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671673, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671460, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iapd4zaexu2k.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671766, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6eubqp8attaz.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671852, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oxh0dbcmb0c5.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671944, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__44.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672116, "dur":61, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226671938, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hzwu469rr4la.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672221, "dur":130, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem.ForUI.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672359, "dur":116, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672213, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cg46d5dn1aub.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672498, "dur":304, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__53.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672809, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672489, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3ltpxklbrl9l.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672911, "dur":180, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__12.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226673099, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226672903, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ucscae8gclqu.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226673182, "dur":81, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1732982226673175, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6dfugeju0j1b.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226673325, "dur":327, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__30.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226673663, "dur":134, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226673311, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2ll2v5ujbj1h.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226673834, "dur":1183, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__10.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226675024, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226673824, "dur":1279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wv49av9cegdq.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226675124, "dur":348, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__3.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226675482, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226675115, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ci8e2b7juf6h.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226675572, "dur":1299, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__15.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226676879, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226675565, "dur":1396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1fj5pchamzuc.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226677000, "dur":340, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\__Generated.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226677347, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226676992, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ohetqo55o2y7.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226677582, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226677758, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226677567, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ixn27ji3rcyv.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226678013, "dur":1243, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__26.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226679266, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226677999, "dur":1352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/krja5o6qyfcw.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226679456, "dur":280, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226679743, "dur":58, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226679374, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/buw9rl99hytd.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226679820, "dur":256, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__50.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680082, "dur":65, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226679814, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wi2whmcih743.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680175, "dur":70, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680168, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fzf5a8wn17j1.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680296, "dur":245, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680547, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680288, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/inz1kze4dqbj.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680625, "dur":230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__5.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680860, "dur":53, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680618, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2k1bwdqpmwyx.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680937, "dur":158, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__31.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681101, "dur":88, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226680930, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n1oqbf9ge7c1.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681212, "dur":75, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681205, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0r4yuhb7h1t0.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681372, "dur":252, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681629, "dur":63, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681346, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6dusc1veup7c.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681733, "dur":242, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__17.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681981, "dur":65, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226681725, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hxnt1dhkubtx.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682064, "dur":128, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682200, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682057, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vr4ukqtaxrch.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682289, "dur":260, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682554, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682280, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b7xko11kngy2.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682654, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682646, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/red9vgot2ip8.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682927, "dur":309, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__7.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226683241, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226682911, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/402vxjua7hmj.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226683322, "dur":260, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__68.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1732982226683588, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226683315, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3e85lvehav5x.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226683674, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vgzi4aeeg2l4.o" }}
+,{ "pid":12345, "tid":10, "ts":1732982226683847, "dur":143773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732982226827988, "dur":50494, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"GameWeb/TemplateData/style.css" }}
+,{ "pid":12345, "tid":11, "ts":1732982226654606, "dur":5336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226659945, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226660197, "dur":708, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226660905, "dur":2630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226663535, "dur":1587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226665122, "dur":2626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226667777, "dur":156, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__23.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226667947, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226667749, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2mcc3gewis64.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226668116, "dur":695, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226668817, "dur":63, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226668102, "dur":778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dnfvwdspdlaw.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226668907, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":11, "ts":1732982226668898, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jw7a7ns7d4c2.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669040, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yayai7pp1iz8.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669132, "dur":304, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__18.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669441, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669125, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8iay5aq3vdzu.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669511, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669502, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d55ysvmac3rn.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669736, "dur":165, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__20.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669907, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669731, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vjljni528d2m.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669992, "dur":223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System__1.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226670224, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226669983, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nyj18kxxhhq0.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226670342, "dur":311, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__79.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226670663, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226670332, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vwbdasivfogc.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226670830, "dur":278, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericMethodPointerTable.c" }}
+,{ "pid":12345, "tid":11, "ts":1732982226670818, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qmoyrc61dwrl.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226671160, "dur":336, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.VRModule_CodeGen.c" }}
+,{ "pid":12345, "tid":11, "ts":1732982226671150, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cex6mky3o2ce.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226671574, "dur":696, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__11.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226672278, "dur":108, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226671561, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ky4tgedlf6fk.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226672433, "dur":1200, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226673641, "dur":138, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226672403, "dur":1376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wm183agiq49l.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226673816, "dur":1375, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__71.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226675199, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226673800, "dur":1484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v25me65cp5ed.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226675338, "dur":423, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__83.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226675328, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4ka3rosqzec3.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226675838, "dur":1009, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__82.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226676859, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226675832, "dur":1127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3cqm78bsvcvn.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226677036, "dur":553, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":11, "ts":1732982226677017, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ok7uhde5946e.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226677670, "dur":238, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226677912, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226677655, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f5prrqiau98n.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226677998, "dur":183, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__1.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226678186, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226677992, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u9p2vz0x8fd0.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226678303, "dur":400, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__29.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226678708, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226678297, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gtuxydwi2kf5.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226678799, "dur":312, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__76.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226678785, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/otkkut9159bu.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226679169, "dur":175, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226679351, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226679163, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sjpvnaywh2ze.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226679456, "dur":730, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226680191, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226679449, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/opxdwg9mhxg9.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226680277, "dur":922, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCalculateTypeValues1.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226681207, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226680269, "dur":1032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jqovo42ifjal.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226681354, "dur":714, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682074, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226681342, "dur":783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y2ijcn6mg9lf.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682148, "dur":134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InputSystem__5.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682286, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682139, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y5vj201f15yg.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682429, "dur":311, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__48.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682744, "dur":53, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682423, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9hrb0exi461b.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682817, "dur":1134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"D:\\unity\\02_Obstacle_Course\\ObstacleCourse\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics__6.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1732982226683955, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226682810, "dur":1213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mx4t5429jv9t.o" }}
+,{ "pid":12345, "tid":11, "ts":1732982226684033, "dur":143506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732982226827542, "dur":488, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles GameWeb/TemplateData/progress-bar-empty-light.png" }}
+,{ "pid":12345, "tid":11, "ts":1732982226828434, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/progress-bar-empty-light.png" }}
+,{ "pid":12345, "tid":11, "ts":1732982226830892, "dur":45849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732982226654485, "dur":5420, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732982226659908, "dur":267, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732982226660175, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732982226660494, "dur":184, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732982226660679, "dur":337, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732982226661016, "dur":2423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732982226663476, "dur":37342, "ph":"X", "name": "ComputeLeafInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/il2cpp.a" }}
+,{ "pid":12345, "tid":12, "ts":1732982226700834, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a" }}
+,{ "pid":12345, "tid":12, "ts":1732982226700993, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)" }}
+,{ "pid":12345, "tid":12, "ts":1732982226701363, "dur":52621, "ph":"X", "name": "7z",  "args": { "detail":"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked" }}
+,{ "pid":12345, "tid":12, "ts":1732982226754041, "dur":73427, "ph":"X", "name": "GzipMarker",  "args": { "detail":"GameWeb/Build/GameWeb.framework.js.gz" }}
+,{ "pid":12345, "tid":12, "ts":1732982226828299, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"GameWeb/TemplateData/icons/unity-logo-dark.png" }}
+,{ "pid":12345, "tid":12, "ts":1732982226830831, "dur":45864, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"GameWeb/manifest.webmanifest" }}
+,{ "pid":12345, "tid":0, "ts":1732982226886458, "dur":1193, "ph":"X", "name": "ProfilerWriteOutput" }
+,
